@@ -1,0 +1,20 @@
+{
+  "name": "label",
+  "version": "1.0.0",
+  "description": "git custom label maker",
+  "main": "index.js",
+  "config": {
+    "TOKEN" : "token here...",
+    "ACCOUNT" : "account here...",
+    "REPOSITORY" : "repository here..."
+  },
+  "scripts": {
+    "get": "node label.js",
+    "set" : "github-label-sync --access-token ${npm_package_config_TOKEN} --labels labels.json ${npm_package_config_ACCOUNT}/${npm_package_config_REPOSITORY}"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "github-label-sync": "^2.2.0"
+  }
+}

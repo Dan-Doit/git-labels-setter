@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Build",
+    "color": "C0A701",
+    "description": "Changes that affect the build system or external dependencies (example scopes: npm, package.json)"
+  },
+  {
+    "name": "CI",
+    "color": "71A1DC",
+    "description": "Changes to our CI configuration files and scripts"
+  },
+  {
+    "name": "Docs",
+    "color": "96C382",
+    "description": "Documentation only changes"
+  },
+  {
+    "name": "Feature",
+    "color": "56A923",
+    "description": "A new feature"
+  },
+  {
+    "name": "Fix",
+    "color": "A71C50",
+    "description": "A bug fix"
+  },
+  {
+    "name": "Performance",
+    "color": "D1EF09",
+    "description": "A code change that improves performance"
+  },
+  {
+    "name": "Refactor",
+    "color": "AF2C33",
+    "description": "A code change that neither fixes a bug nor adds a feature"
+  },
+  {
+    "name": "Revert",
+    "color": "188B78",
+    "description": "Reverts a previous commit"
+  },
+  {
+    "name": "Style",
+    "color": "2E25B3",
+    "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons)"
+  },
+  {
+    "name": "Question",
+    "color": "9ED447",
+    "description": "Further information is requested"
+  },
+  {
+    "name": "Test",
+    "color": "D6ADD2",
+    "description": "Adding missing tests or correcting existing tests"
+  }
+]
