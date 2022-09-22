@@ -4,8 +4,8 @@
   "description": "git custom label maker",
   "main": "index.js",
   "scripts": {
-    "get": "node main.js",
-    "set": "dotenv cross-var github-label-sync --access-token %TOKEN% --labels labels.json %ACCOUNT%/%REPOSITORY%"
+    "get": "node get.js",
+    "set": "node set.js"
   },
   "author": "",
   "license": "ISC",
