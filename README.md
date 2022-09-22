@@ -6,6 +6,13 @@ npm install
 yarn install
 ```
 
+## Setting .ENV
+```dotenv
+TOKEN="your persnal token here"
+ACCOUNT="your account here"
+REPOSITORY="your repository here"
+```
+
 
 ## Documentation
 
