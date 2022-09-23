@@ -2,7 +2,6 @@
 const githubLabelSync = require('github-label-sync');
 const labels = require('./labels.json')
 const dotenv = require('dotenv')
-const fs = require('fs');
 
 // SET : ENV VAR
 dotenv.config()
@@ -22,7 +21,7 @@ githubLabelSync({
         labels.map(label => {
             console.debug(`Label ===> ${label.name} updated`)
         })
-        console.log('\x1b[32m%s\x1b[0m', 'SUCCESS ALL LABELS UPDATED');
+        console.log('\x1b[32m%s\x1b[0m', 'ALL LABELS UPDATED SUCCESSFULLY');
     }
 
 }).catch(e => console.error(e));
