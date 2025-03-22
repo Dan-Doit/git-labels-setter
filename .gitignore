@@ -6,3 +6,4 @@ response-labels.json
 
 # ide setting
 .idea
+.env
