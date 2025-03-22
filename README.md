@@ -8,9 +8,9 @@ yarn install
 
 ## Setting .ENV
 ```dotenv
-TOKEN="your persnal token here"
-ACCOUNT="your account here"
-REPOSITORY="your repository here"
+TOKEN="your github personal token"
+PROJECT_NAME="project name"
+REPOSITORY_NAME="repository name"
 ```
 
 

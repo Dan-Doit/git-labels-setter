@@ -5,16 +5,15 @@ const dotenv = require('dotenv')
 
 // SET : ENV VAR
 dotenv.config()
-const {TOKEN, ACCOUNT, REPOSITORY} = process.env
+const {TOKEN, PROJECT_NAME, REPOSITORY_NAME} = process.env
 
 // SET : GIT HUB INFO VAR
 githubLabelSync({
     accessToken: TOKEN,
-    repo: `${ACCOUNT}/${REPOSITORY}`,
+    repo: `${PROJECT_NAME}/${REPOSITORY_NAME}`,
     labels,
     dryRun: false,
 }).then(labels => {
-
     if (labels.length === 0) {
         console.log('\x1b[33m%s\x1b[0m', 'Labels are already up to date');
     } else {

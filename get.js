@@ -5,12 +5,12 @@ const fs = require('fs');
 
 // SET : ENV VAR
 dotenv.config()
-const {TOKEN, ACCOUNT, REPOSITORY} = process.env
+const {TOKEN, PROJECT_NAME, REPOSITORY_NAME} = process.env
 
 // SET : GIT HUB INFO VAR
 githubLabelSync({
     accessToken: TOKEN,
-    repo: `${ACCOUNT}/${REPOSITORY}`,
+    repo: `${PROJECT_NAME}/${REPOSITORY_NAME}`,
     labels: [],
     dryRun: true,
 }).then(response => {
